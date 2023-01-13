@@ -6,6 +6,7 @@
   "module": "dist/index.esm.js",
   "typings": "dist/index.d.ts",
   "scripts": {
+    "prepare": "npm run build",
     "test": "yarn test",
     "build": "rollup -c",
     "build:watch": "yarn build -w"
